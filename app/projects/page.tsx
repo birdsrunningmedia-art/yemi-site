@@ -71,7 +71,7 @@ export default function ProjectsPage() {
                     transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
                     src={project.image}
                     alt={project.title}
-                    className={`w-full ${aspectClass} object-cover rounded-[1.6rem] grayscale group-hover:grayscale-0 transition-all duration-1000`}
+                    className={`w-full ${aspectClass} object-cover rounded-[1.6rem] transition-all duration-1000`}
                   />
                 </div>
               </Link>

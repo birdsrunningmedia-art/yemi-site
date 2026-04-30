@@ -30,7 +30,7 @@ export default function Contact() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="font-headline italic text-6xl md:text-8xl lg:text-9xl tracking-tighter text-white leading-[0.85]"
+            className="font-headline italic text-8xl lg:text-9xl tracking-tighter text-white leading-[0.85]"
           >
             {"Let's build"} <br />
             <span className="text-[#D4A5A5]">the future.</span>
@@ -78,7 +78,7 @@ export default function Contact() {
                 duration: 0.8,
                 ease: [0.16, 1, 0.3, 1],
               }}
-              className="group relative flex flex-col p-4 md:p-6 rounded-[2.5rem]bg-white/60 backdrop-blur-xl border border-[#D4A5A5]/30 shadow-[0_20px_40px_-15px_rgba(212,165,165,0.2)] hover:-translate-y-2 hover:bg-white/95 hover:border-[#D4A5A5] hover:shadow-[0_30px_60px_-12px_rgba(212,165,165,0.4)] transition-all duration-500 ease-[0.16, 1, 0.3, 1] overflow-hidden"
+              className="group relative flex flex-col p-4 md:p-6 rounded-[2.5rem]bg-white/60 backdrop-blur-xl border border-[#D4A5A5]/30 shadow-[0_20px_40px_-15px_rgba(212,165,165,0.2)] hover:-translate-y-2 hover:bg-white/95 hover:border-[#D4A5A5] hover:shadow-[0_30px_60px_-12px_rgba(212,165,165,0.4)] transition-all duration-500 ease-[0.16, 1, 0.3, 1] overflow-hidden rounded-2xl"
             >
               {/* Background Glow */}
               <div className="absolute inset-0 bg-gradient-to-br from-[#D4A5A5]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />

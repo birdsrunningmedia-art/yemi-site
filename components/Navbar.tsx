@@ -37,8 +37,7 @@ const Navbar = () => {
       {/* Social Icons Stack */}
       <div className="flex items-center gap-0.5 md:gap-2">
         <Link
-          href="https://x.com/yekinAbdulwahab" // to be replaced with linkedIn
-          target="_blank"
+          href="https://www.linkedin.com/in/olayemi-adegoke-b6a6081b9"
           rel="noopener noreferrer"
         >
           <div className="group p-2 md:p-3.5 rounded-full hover:bg-[#D4A5A5]/15 transition-all duration-500 cursor-pointer shrink-0">
@@ -49,10 +48,11 @@ const Navbar = () => {
         {/* <div className="group p-2 md:p-3.5 rounded-full hover:bg-[#D4A5A5]/15 transition-all duration-500 cursor-pointer shrink-0">
           <FaGithub className="text-secondary h-5 w-5 md:h-7 md:w-7 group-hover:text-[#D81B60] dark:group-hover:text-[#FFB6C1] transition-colors" />
         </div> */}
-
-        <div className="group p-2 md:p-3.5 rounded-full hover:bg-[#D4A5A5]/15 transition-all duration-500 cursor-pointer shrink-0">
-          <FaRegFilePdf className="text-secondary h-5 w-5 md:h-7 md:w-7 group-hover:text-[#D81B60] dark:group-hover:text-[#FFB6C1] transition-colors" />
-        </div>
+        <a href="/resume.pdf" target="_blank">
+          <div className="group p-2 md:p-3.5 rounded-full hover:bg-[#D4A5A5]/15 transition-all duration-500 cursor-pointer shrink-0">
+            <FaRegFilePdf className="text-secondary h-5 w-5 md:h-7 md:w-7 group-hover:text-[#D81B60] dark:group-hover:text-[#FFB6C1] transition-colors" />
+          </div>
+        </a>
       </div>
 
       <span className="text-outline-variant/30 md:text-outline-variant/40 px-0.5 select-none text-sm md:text-xl font-light">
