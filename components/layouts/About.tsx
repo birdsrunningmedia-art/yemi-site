@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section className="relative overflow-hidden lg:py-32 py-16" id="about">
+    <section className="relative overflow-hidden md:py-32 py-16" id="about">
       {/* Ambient Background Element - Soft wash of pinkish warmth */}
       <div className="absolute top-1/4 -right-24 w-96 h-96 bg-[#D4A5A5]/5 blur-[120px] rounded-full pointer-events-none" />
 
