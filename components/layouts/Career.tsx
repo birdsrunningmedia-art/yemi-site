@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import { motion } from "framer-motion";
 import {
@@ -12,7 +12,7 @@ import {
 export default function Career() {
   return (
     <section
-      className="py-32 px-8 bg-background relative overflow-hidden"
+      className="md:py-32 py-16 px-8 bg-background relative overflow-hidden"
       id="career"
     >
       {/* Ambient background wash */}

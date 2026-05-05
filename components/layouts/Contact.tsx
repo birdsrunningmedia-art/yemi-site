@@ -40,7 +40,7 @@ export default function Contact() {
 
       {/* 2. Directory Section */}
       <motion.section
-        className="py-24 px-8 max-w-4xl mx-auto"
+        className="py-12 md:py-24 px-8 max-w-4xl mx-auto"
         id="contact"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

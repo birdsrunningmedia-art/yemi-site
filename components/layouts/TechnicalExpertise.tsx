@@ -6,7 +6,7 @@ import { expertise, Expertise, leadership, Leadership } from "@/lib/data";
 export default function TechnicalExpertise() {
   return (
     <section
-      className="bg-background py-32 px-8 relative overflow-hidden"
+      className="bg-background md:py-32 py-16 px-8 relative overflow-hidden"
       id="strategy"
     >
       {/* Subtle Ambient Background Wash */}

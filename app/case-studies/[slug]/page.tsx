@@ -183,7 +183,7 @@ export default function ProjectViewerPage({
 
       {/* FOOTER NAVIGATION */}
       <motion.section 
-        className="border-t border-on-surface/10 pt-40 pb-20 text-center"
+        className="border-t border-on-surface/10 md:pt-40 md:pb-20 pt-20 pb-10 text-center"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}

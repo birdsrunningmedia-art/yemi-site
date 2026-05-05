@@ -6,7 +6,7 @@ import { projects, Project } from "@/lib/data";
 
 export default function Projects() {
   return (
-    <section className="px-8 max-w-4xl mx-auto py-32" id="projects">
+    <section className="px-8 max-w-4xl mx-auto md:py-32 py-16" id="projects">
       <motion.div
         className="mb-24 flex flex-col md:flex-row justify-between items-start md:items-end gap-6"
         initial={{ opacity: 0, y: 20 }}

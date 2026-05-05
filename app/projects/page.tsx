@@ -105,7 +105,7 @@ export default function ProjectsPage() {
 
       {/* Footer CTA */}
       <motion.section 
-        className="mt-64 text-center"
+        className="md:mt-64 mt-32 text-center"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
